@@ -1,0 +1,175 @@
+body{
+    border: 0;
+    margin: 0;
+}
+.mycol{
+     padding: 4px;
+    border: 3px solid violet;
+}
+#topheader{
+    background-color:whitesmoke;
+    padding: 4px;
+    border-bottom:2px solid silver;
+}
+
+/* header */
+#topheader a{
+    color: black;
+    
+}
+.container-fluid{
+    padding: 0;
+}
+.navbar{
+    background-color:navy
+}
+.nav-link{
+    color: white;
+}
+.navbar-toggler{
+    background-color:white;
+    border: 1px solid gray;
+}
+.dropdown-toggle::after{
+    display: none;
+}
+
+/* home part 1 */
+.text-body{
+    background-color: gainsboro;
+    
+}
+.btn{
+    background-color:paleturquoise;
+    color: black;
+}
+.img-fluid{
+    max-width: 100%;
+    height: auto;
+}
+
+/*  home part2 */
+
+.text-body-2 p{
+      font-size: 1rem;
+}
+ 
+/* requirements */
+.requirements{
+    background-color:midnightblue;
+    border-top:2px solid white
+}
+.requirements .form-control{
+    border-radius: 0px;
+}
+.requirements .btn{
+    border-radius: 0px;
+}
+
+/* books section */
+
+.books-section .col-md-4{
+    border: 6px solid gainsboro;
+    background-color: snow;
+}
+
+.books{
+    width: 200px;
+    height: 200px;
+}
+
+/* starting of about us page */
+/* about us section */
+.notation{
+    font-size: 2.3rem;
+}
+.link-info{
+    text-decoration: none;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+  
+/* ending of about us page */
+
+/* starting of services page */
+.carousel-item img{
+    /* height:650px;
+    width:10px; */
+    padding-left:30%;
+    padding-right:30%;
+   
+}
+.carousel-control-prev-icon{
+    background-color: black;
+}
+.carousel-control-next-icon{
+    background-color: black;
+}
+/* ending of services page */
+
+
+/* starting of contact us  */
+.info{
+    display:grid;
+}
+
+.form-row{
+  padding: 12px;
+}
+.form-group{
+    padding: 12px;
+}
+.form-group .btn{
+    background-color: navy;
+    color: white;
+    border-radius: 0;
+}
+/* ending of contact us  */
+
+
+/* meeting room start */
+.meeting-body{
+   white-space:pre-line;
+}
+.calender{
+    padding: 32px;
+}
+.calender img{
+    height: 400px;
+    width: 400px;
+}
+.img-fluid dates{
+    max-width: 100%;
+    height: auto;
+    
+}
+/* meeting room end */
+/* footer */
+.topfooter{
+    background-color:gainsboro;
+    border: 2px ;
+    bottom: 0;
+    width: 100%;
+    
+}
+p{
+    color:black;
+    font-size: 1.2rem;
+}
+p a{
+    color: black;
+}
+.col-md-3 a{
+    color: black;
+}
+.bottomfooter{
+  background-color:navy;
+  position: absolute;
+  text-align: center;
+}
+
+.border-start{
+    border: 5px solid  white;
+    border-top: 0px;
+    border-bottom: 0;
+    border-style:dotted;
+}
